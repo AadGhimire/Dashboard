@@ -1,0 +1,15 @@
+runtime: php
+env: flex
+runtime_config:
+  document_root: public
+env_variables:
+  APP_LOG: errorlog
+  APP_KEY: base64:qBrq65zk4PKZcTzsEqO+5c64FYMo/n3qdtDDqhyARlw=
+  CLOUD_SQL__CONNECTION: sql
+  CLOUD_SQL__HOST: 35.246.40.99
+  CLOUD_SQL__PORT: 3306
+  CLOUD_SQL__DATABASE: login
+  CLOUD_SQL__USERNAME: root
+  CLOUD_SQL__PASSWORD: aadhikya
+  CLOUD_SQL__SOCKET: cloudsql/dashboard-289701:europe-west2:dashboard
+  QUEUE_DRIVER: database
